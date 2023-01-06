@@ -16,9 +16,7 @@ const Todo = () => {
                 <div className="todo__list">
                     <div className="todo__name">Name</div>
                     <div className="todo__name">Email</div>
-                    <div className="todo__name">Phone</div>
-                    <div className="todo__name">Enroll Number</div>
-                    <div className="todo__name">Date of admission</div>
+
                     <hr/>
                 </div>
                 <Modal active={activeModal} setActive={setActiveModal}>
