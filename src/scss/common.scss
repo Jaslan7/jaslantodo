@@ -1,0 +1,111 @@
+.todo {
+  // .todo-container
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+  // .todo__button
+  &__button {
+    padding: rem(15) rem(26);
+    margin-top: rem(61);
+    color: #fff;
+    margin-bottom: rem(16);
+  }
+
+  // .todo__tr
+  &__tr {
+    max-width: 1110px;
+    border: 1px solid #E5E5E5;
+  }
+
+  // .todo__list
+  &__list {
+    margin-top: rem(22);
+    display: flex;
+    justify-content: space-evenly;
+    color: #ACACAC;
+  }
+
+  // .todo__name
+  &__name {
+  }
+}
+.button {
+  font-weight: 500;
+  padding: rem(15) rem(26);
+  margin-top: rem(61);
+  background: #f15c11;
+  white-space: nowrap;
+}
+.input {
+  // .input__container
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  // .input__button
+  &__button {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: rem(60);
+  }
+
+  // .input__list
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(15);
+  }
+
+  // .input__index
+  &__index {
+    max-width: rem(597);
+    margin-top: rem(15);
+  }
+}
+.todo {
+  // .todo__box
+  &__box {
+  }
+}
+
+.todo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  margin-top: rem(30);
+  // .todo-box__email
+  &__email {
+    padding: rem(20);
+    flex: 1 1 auto;
+  }
+
+  // .todo-box__phone
+  &__phone {
+  }
+
+  // .todo-box__number
+  &__number {
+  }
+
+  // .todo-box__date
+  &__date {
+  }
+
+  // .todo-box__pencil
+  &__pencil {
+  }
+
+  // .todo-box__trash
+  &__trash {
+    padding: rem(20);
+    background: #fff;
+  }
+}
+.no {
+  margin-top: rem(30);
+
+}
