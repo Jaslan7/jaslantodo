@@ -11,7 +11,7 @@ const Todo = () => {
     return (
         <div className='todo'>
             <div className="todo__container">
-                <button className='todo__button button' onClick={() => setActiveModal(true)}>ADD NEW STUDENT</button>
+                <button className='todo__button button' onClick={() => setActiveModal(true)}>ADD  STUDENT</button>
                 <div className="todo__tr"></div>
                 <div className="todo__list">
                     <div className="todo__name">Name</div>
@@ -30,7 +30,7 @@ const Todo = () => {
                         text={todo.text}
                     />
                 ))}
-                {count === 0 && <h1 className='no'>NO TODO</h1>}
+                {count === 0 && <h1 className='no'>todo net</h1>}
             </div>
         </div>
     );

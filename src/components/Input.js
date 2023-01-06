@@ -44,7 +44,7 @@ const Input = () => {
                 </div>
                 <button className="todo__button button"
                         onClick={handleAddTodo}
-                >ADD TO STUDENT</button>
+                >ADD  STUDENT</button>
             </div>
         </div>
     );
